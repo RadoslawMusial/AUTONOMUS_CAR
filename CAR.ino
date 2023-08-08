@@ -82,11 +82,13 @@ if ((distance_1 + distance_2) < 30 && (distance_1 + distance_2) > distance_3)
     {
     analogWrite(ENA, 0);
     analogWrite(ENB, 0);
+    }
     moveBackward() ; 
     delay(1000);
      turn_right () ; 
     forward () ;
-    }
+   
+  
     } 
 }
     
